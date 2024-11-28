@@ -15,4 +15,4 @@ setInterval(function () {
   nextIcon.classList.add("show");
 
   // console.log(nextIcon);
-}, 2000);
+}, 1500);
