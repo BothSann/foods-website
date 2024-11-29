@@ -1,5 +1,5 @@
 ## 🖼️ Screenshot
 
-![Screenshot](screenshot-1.PNG)
+![Screenshot](screenshots/screenshot-1.PNG)
 
-![Screenshot](screenshot-2.PNG)
+![Screenshot](screenshots/screenshot-2.PNG)
