@@ -45,9 +45,11 @@ To view or modify this project locally:
    ```bash
    git clone https://github.com/BothSann/thefoods-website.git
 
+---
+
 ## 👨‍🍳 Author
 
-**THANN SOPHEAKBOTH** - *Creator of the project*
+© Copyright by **THANN SOPHEAKBOTH** - *Creator of the project*
 
 
 
