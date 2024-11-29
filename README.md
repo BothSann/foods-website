@@ -4,6 +4,15 @@ A simple, responsive, and visually appealing food-themed website that showcases 
 
 ---
 
+## 🌐 Live Demo
+
+Check out the live version of the website at: 
+   ```bash
+   https://bothsann.github.io/thefoods-website/
+   ```
+
+---
+
 ## 🖼️ Screenshot
 
 ![Screenshot](screenshots/screenshot1.PNG)
