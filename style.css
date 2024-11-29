@@ -521,10 +521,9 @@ body {
   html {
     font-size: 40%;
   }
-  .navbar__link {
-    margin: 0 0.7rem;
-  }
-  .navbar {
-    padding: 0 2rem;
+
+  .navbar__link:link,
+  .navbar__link:visited {
+    margin: 0 1rem;
   }
 }
