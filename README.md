@@ -8,9 +8,9 @@ A simple, responsive, and visually appealing food-themed website that showcases 
 
 ![Screenshot](screenshots/screenshot-1.PNG)
 
-![Screenshot](screenshots/screenshot.PNG)
+![Screenshot](screenshots/screenshot-2.PNG)
 
-![Screenshot](screenshots/screenshot.PNG)
+![Screenshot](screenshots/screenshot-3.PNG)
 
 ## 📌 Features
 
