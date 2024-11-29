@@ -2,13 +2,17 @@
 
 A simple, responsive, and visually appealing food-themed website that showcases a variety of foods and popular meals. It includes an interactive gallery, a dynamic menu, and a signup form for receiving updates.
 
+## 🌐 Live Demo
+
+Check out the live version of the website at: [The Foods Website](https://bothsann.github.io/thefoods-website/)
+ 
 ---
 
 ## 🖼️ Screenshot
 
-![Screenshot](screenshots/screenshot-1.PNG)
+![Screenshot](screenshots/screenshot1.PNG)
 
-![Screenshot](screenshots/screenshot-2.PNG)
+![Screenshot](screenshots/screenshot2.PNG)
 
 ![Screenshot](screenshots/screenshot-3.PNG)
 
