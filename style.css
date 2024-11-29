@@ -152,3 +152,193 @@ body {
   background-color: #fff;
   color: #000;
 }
+/* End of section 2 */
+
+/* Section 3 */
+.section-3 {
+  background-color: #333;
+  padding: 10rem 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10rem;
+}
+
+.gallery__img {
+  width: 24vw;
+  height: 15vw;
+  border-radius: 1rem;
+  object-fit: cover;
+  transition: all ease 0.2s;
+}
+
+.gallery__link:hover .gallery__img {
+  box-shadow: 1rem 1rem 2rem #111;
+  filter: blur(0.5rem);
+  opacity: 0.5;
+  transform: scale(1.1);
+}
+
+.gallery__link:link,
+.gallery__link:visited {
+  text-decoration: none;
+  outline: none;
+  position: relative;
+  color: #fff;
+  margin: 4rem 1rem;
+}
+
+.gallery__link::before {
+  content: "";
+  position: absolute;
+  width: 0.2rem;
+  /* height: 80%; */
+  top: 1.5vw;
+  left: 80%;
+  background-color: #fff;
+  z-index: 10;
+  transition: height 0.5s;
+  height: 0;
+  transition: height 0.5s;
+}
+
+.gallery__link:hover::before {
+  height: 80%;
+}
+
+.gallery__link::after {
+  content: "";
+  position: absolute;
+  /* width: 90%; */
+  height: 0.2rem;
+  top: 25%;
+  left: 2rem;
+  background-color: #fff;
+  width: 0;
+  transition: width 0.5s;
+}
+
+.gallery__link:hover::after {
+  width: 90%;
+}
+
+.gallery__food-name {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  width: 0;
+  overflow: hidden;
+  transition: width 0.3s;
+}
+.gallery__link:hover .gallery__food-name {
+  width: 100%;
+  transition: width 1.2s 0.3s;
+}
+
+.gallery__description {
+  position: absolute;
+  bottom: 3vw;
+  left: 2rem;
+  width: 70%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+}
+
+.gallery__link:hover .gallery__description {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1s 0.2s;
+}
+/* End of section 3 */
+
+/* Section 4*/
+.section-4 {
+  width: 100%;
+  height: 30vh;
+
+  background-color: #222;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 3rem 0;
+  position: relative;
+}
+
+.footer {
+  text-transform: uppercase;
+}
+
+.footer__heading {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #ffd700;
+}
+
+.footer__description {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+.signup {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.signup__input {
+  width: 35rem;
+  height: 5rem;
+  padding: 1rem;
+
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #333;
+}
+.signup__input::placeholder {
+  color: #777;
+}
+
+.signup__btn {
+  position: relative;
+  left: -5rem;
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.2s;
+  background-color: #fff;
+}
+.signup__btn:hover {
+  background-color: #e7e7e7;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 3rem;
+  color: #eee;
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: 200;
+  padding-top: 4rem;
+  border-top: 0.1rem solid #888;
+  width: 100%;
+}
+.copyright span {
+  font-weight: bold;
+}
+
+/* End of section 4 */
