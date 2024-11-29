@@ -10,6 +10,9 @@ A simple, responsive, and visually appealing food-themed website that showcases 
 
 ![Screenshot](screenshots/screenshot-2.PNG)
 
+![Screenshot](screenshots/screenshot-3.PNG)
+
+
 ## 📌 Features
 
 - **🍽️ Navbar**: Easy navigation with icons for different sections like Home, Meals, Burger, Pizza, and Contact.
