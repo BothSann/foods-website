@@ -524,4 +524,7 @@ body {
   .navbar__link {
     margin: 0 0.7rem;
   }
+  .navbar {
+    padding: 0 2rem;
+  }
 }
