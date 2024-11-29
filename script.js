@@ -1,6 +1,7 @@
 "use strict";
 
 const icons = document.querySelectorAll(".section-1__icons .fas");
+const menu = document.querySelector(".menu");
 
 setInterval(function () {
   const activeIcon = document.querySelector(".section-1__icons .show");

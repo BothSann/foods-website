@@ -20,8 +20,70 @@ body {
   font-weight: 400;
 }
 
-/* Section 1 */
+/* Navbar */
+.navbar {
+  width: 100%;
+  height: 14rem;
+  background-color: #000;
+  position: fixed;
+  top: -15rem;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  box-shadow: 0.2rem 0.2rem 1rem #999;
+}
 
+.navbar__link:link,
+.navbar__link:visited {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #777;
+  transition: all 0.3s;
+}
+
+.navbar__link:hover {
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.navbar__link .fas {
+  font-size: 5.5rem;
+}
+
+.navbar__link span {
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+}
+
+.menu {
+  width: 4rem;
+  height: 6rem;
+  background-color: #000;
+  position: fixed;
+  top: 1rem;
+  left: 5rem;
+  border-radius: 30rem 30rem 15rem 15rem;
+  cursor: pointer;
+}
+
+.menu::before {
+  content: "";
+  width: 0.3rem;
+  height: 15rem;
+  background-color: #000;
+  position: absolute;
+  top: -15rem;
+  left: calc(50% - 0.15rem);
+}
+/* End of navbar */
+
+/* Section 1 */
 .section-1 {
   width: 100%;
   height: 100vh;
