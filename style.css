@@ -33,6 +33,7 @@ body {
   align-items: center;
   gap: 6rem;
   box-shadow: 0.2rem 0.2rem 1rem #999;
+  transition: top 0.4s;
 }
 
 .navbar__link:link,
@@ -43,11 +44,12 @@ body {
   justify-content: center;
   gap: 0.5rem;
   color: #777;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 
-.navbar__link:hover {
-  color: #fff;
+.navbar__link:link:hover,
+.navbar__link:visited:hover {
+  color: #ffd700;
   transform: scale(1.05);
 }
 
@@ -70,6 +72,7 @@ body {
   left: 5rem;
   border-radius: 30rem 30rem 15rem 15rem;
   cursor: pointer;
+  transition: top 0.4s 0.2s;
 }
 
 .menu::before {
@@ -81,6 +84,17 @@ body {
   top: -15rem;
   left: calc(50% - 0.15rem);
 }
+
+.menu.clicked {
+  top: 15rem;
+  transition: top 0.4s;
+}
+
+.navbar.clicked {
+  top: 0;
+  transition: top 0.4s 0.2s;
+}
+
 /* End of navbar */
 
 /* Section 1 */
