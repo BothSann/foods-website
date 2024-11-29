@@ -8,7 +8,7 @@ Check out the live version of the website at: [The Foods Website](https://bothsa
  
 ---
 
-## 🖼️ Screenshot
+## 🖼️ Screenshots
 
 ![Screenshot](screenshots/screenshot1.PNG)
 
