@@ -3,6 +3,7 @@
 const icons = document.querySelectorAll(".section-1__icons .fas");
 const menu = document.querySelector(".menu");
 const target = document.querySelectorAll(".target");
+
 setInterval(function () {
   const activeIcon = document.querySelector(".section-1__icons .show");
 
@@ -17,9 +18,10 @@ setInterval(function () {
 
   // console.log(nextIcon);
 }, 1500);
-console.log(target);
+
+// console.log(target);
 menu.addEventListener("click", function () {
-  target.forEach(function (curEl) {
-    curEl.classList.toggle("clicked");
+  target.forEach(function (el) {
+    el.classList.toggle("clicked");
   });
 });
